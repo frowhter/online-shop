@@ -1,0 +1,13 @@
+.banner{
+    display: grid;
+}
+@media screen and (max-width: 999px){
+    .banner{
+        grid-template-columns: auto;
+    }
+}
+@media screen and (min-width: 1000px){
+    .banner{
+        grid-template-columns: auto auto;
+    }
+}

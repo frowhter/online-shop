@@ -1,0 +1,20 @@
+.Column2, .Column3{
+    display: grid;
+    column-gap: 50px;
+}
+@media screen and (max-width: 999px){
+    .Column2, .Column3{
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .Column3{
+        grid-template-columns: auto auto auto;
+    }
+
+    .Column2{
+        grid-template-columns: auto auto;
+    }
+}
+

@@ -1,0 +1,18 @@
+.myInput {
+    width: 100%;padding: 5px 15px;
+    margin: 5px 0;
+    border: 0;
+    background: white;
+    border-radius: 40px;
+}
+
+.myInput:active,.myInput:focus{
+    border: 1px solid #FCBA6C;
+    outline: 0;
+    outline-offset: 0;
+}
+.myInput:hover{
+    border: 1px solid #FCBA6C;
+    outline: 0;
+    outline-offset: 0;
+}

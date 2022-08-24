@@ -1,0 +1,13 @@
+.Card{
+    width: fit-content;
+    height: 100%;
+    padding: 30px 50px;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    justify-content: center;
+    justify-items: center;
+    box-shadow: rgb(0 0 0 / 25%) 0px 4px 4px;
+    border-radius: 40px;
+}

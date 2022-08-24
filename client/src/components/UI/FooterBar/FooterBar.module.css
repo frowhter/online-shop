@@ -1,0 +1,8 @@
+.FooterBar{
+    display: grid;
+    width: 100vw;
+    grid-template-columns: auto auto auto auto auto;
+    background: #C9DEE7;
+    padding: 30px 50px 0 50px;
+    bottom: 0;
+}

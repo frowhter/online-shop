@@ -1,0 +1,18 @@
+.myBtn {
+    padding: 5px 15px;
+    color: #333333;
+    font-size: 14px;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background: #FCBA6C;
+    border: 1px solid #FCBA6C;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.myBtn:hover{
+    background: transparent;
+}
